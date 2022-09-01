@@ -1,0 +1,174 @@
+/*=== RESET ==================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*=== VARIABLES ==================*/
+:root {
+    --white-color: #fffcf9;
+    --gray-color: #b3b3b3;
+    --bg-button: #e9e6e3;
+    --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+}
+
+body {
+    background: var(--background) no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+/*=== TITLE ==================*/
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    
+    padding-top: 4rem;
+}
+
+.title .logo {
+    width: 6rem;
+    height: 4rem;
+}
+
+.title h1 {
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-align: center;
+
+    padding-inline: 1rem;
+}
+
+/*=== MOVIE INFO ==================*/
+#content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+#content div h2,
+#content h2 {
+    color: var(--white-color);
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+    margin-top: 1rem;
+    padding-inline: 1rem;
+}
+
+#content div p {
+    color: var(--gray-color);
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.4rem;
+
+    margin-top: 1rem;
+    width: 21rem;
+}
+
+#content img {
+    width: 10rem;
+    height: 15rem;
+    margin-top: 1rem;
+}
+
+/*=== FIND MOVIE ==================*/
+.find-movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.find-movie button {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+
+    background: var(--bg-button);
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem 0.7rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+
+    font-weight: 800;
+    font-size: 0.75rem;
+}
+
+.find-movie button img {
+    width: 2rem;
+    height: 1.5rem;
+}
+
+.find-movie p {
+    width: 19rem;
+
+    font-size: 0.68rem;
+    text-align: center;
+    line-height: 1.3rem;
+    color: var(--gray-color);
+
+    margin: 1rem 0 4rem 0;
+}
+
+/*===================== MEDIA QUERIES =====================*/
+
+/*=== MEDIUM DEVICES - TABLETS ==================*/
+@media (min-width: 768px) {
+    /*=== TITLE ==================*/
+    .title {
+        padding-top: 6rem;
+    }
+
+    /*=== MOVIE INFO ==================*/
+    #content {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 2.5rem;
+    }
+
+    #content div h2,
+    #content h2 {
+        text-align: left;
+        width: 24rem;
+    
+        padding-inline: 0;
+    }
+
+    #content div p {
+        text-align: left;
+    
+        width: 25rem;
+    }
+
+    /*=== FIND MOVIE ==================*/
+    .find-movie button { 
+        margin-top: 2.5rem;
+    }
+}
+
+/*=== LARGE DEVICES - DESKTOPS ==================*/
+@media (min-width: 1024px) {
+    /*=== TITLE ==================*/
+    .title {
+        padding-top: 8rem;
+    }
+
+    /*=== MOVIE INFO ==================*/
+    #content div p {
+        width: 30rem; 
+    }
+
+}
+    
