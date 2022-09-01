@@ -73,7 +73,7 @@ body {
     line-height: 1.4rem;
 
     margin-top: 1rem;
-    width: 21rem;
+    padding: 0 2.5rem 0 2.5rem;
 }
 
 #content img {
@@ -148,8 +148,8 @@ body {
 
     #content div p {
         text-align: left;
-    
         width: 25rem;
+        padding: 0 0rem 0 0rem;
     }
 
     /*=== FIND MOVIE ==================*/
