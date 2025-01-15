@@ -2,15 +2,17 @@
   💻<br>Rocketflix
 </h1>
 
-![Design preview for the rocketflix](./assets/images/project-image.png)
+<div align="center">
+  <img src="./assets/images/project-view.png" alt="Imagem do projeto Rocketflix">
+</div>
 
-<h4 align="center"><a href="https://lucasgabriell97.github.io/rocketflix/">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="https://rocketflix-hazel.vercel.app/">Clique para visitar o projeto</a></h4>
 
 ## 📚 Sobre o projeto
 
-Rocketflix - Desafio proposto pelo curso Discover da Rocketseat. Neste desafio eu utilizei a API do themoviedb.org para exibir um filme aleatório sempre que o usuário clicar em "Encontrar filme". 🚀
+Rocketflix - Desafio proposto pelo curso <strong>Discover da Rocketseat.</strong> Neste desafio eu utilizei a API do themoviedb.org para exibir um filme aleatório sempre que o usuário clicar em "Encontrar filme". 🚀
 
-## 💼 Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 
 - HTML;
 - CSS;
