@@ -1,5 +1,5 @@
 <h1 align="center">
-  💻<br>Rocketflix
+  🎬<br>Rocketflix
 </h1>
 
 <div align="center">
@@ -10,12 +10,16 @@
 
 ## 📚 Sobre o projeto
 
-Rocketflix - Desafio proposto pelo curso <strong>Discover da Rocketseat.</strong> Neste desafio eu utilizei a API do themoviedb.org para exibir um filme aleatório sempre que o usuário clicar em "Encontrar filme". 🚀
+Desafio proposto pelo curso <strong>Discover da Rocketseat.</strong> Neste desafio eu utilizei a API do themoviedb.org para exibir um filme aleatório sempre que o usuário clicar em "Encontrar filme". 🚀
+
+## ⚙️ Funcionalidade
+
+☑︎ Exibir filmes aleatórios sempre que clicar no botão.
 
 ## 🛠️ Tecnologias utilizadas
 
-- HTML;
-- CSS;
-- JavaScript;
-- Axios;
-- Animation CSS;
+- HTML
+- CSS
+- JavaScript
+- Axios
+- Animation CSS
